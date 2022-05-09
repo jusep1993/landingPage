@@ -59,6 +59,7 @@ body{
     margin-bottom: 10px;
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 8px;
 }
 
 .header-bottom img{
@@ -198,6 +199,7 @@ body{
     align-self: center;
     margin-top: 15px;
     font-size: 20px;
+    border-radius: 8px;
 }
 
 
@@ -220,4 +222,8 @@ body{
 
 ul{
     list-style-type: none;
+}
+a{
+  text-decoration: none;  
+  color: #e5e7eb;
 }
