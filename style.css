@@ -1,0 +1,107 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+.container{
+    border: 5px;
+    border-style:dashed;
+    border-color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}   
+
+/* HEADER */
+
+.header{
+    background-color: aqua;
+    flex-basis: 35%;
+} 
+.header-top{
+    background-color: blueviolet;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-top ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header-bottom{
+    background-color: bisque;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-bottom .header-text{
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    height: 150;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-bottom button{
+    align-self: flex-start;
+}
+
+.header-bottom img{
+    width: 400px;
+    height: 250px;
+    align-self: center;
+}
+
+/* END HEADER */
+
+/* TOP MAIN*/
+
+.top-main{
+    background-color: lightslategray;
+    flex-basis: 30%;
+}
+
+/* END TOP MAIN*/
+
+/* MID MAIN*/
+.mid-main{
+    background-color: lightblue;
+    flex-basis: 25%;
+}
+
+/* END MID MAIN*/
+
+
+/* BOTTOM MAIN*/
+.bottom-main{
+    background-color: lightgreen;
+    flex-basis: 25%;
+}
+
+/* END BOTTOM MAIN*/
+
+
+/* FOOTER*/
+.footer{
+    background-color: lightpink;
+    flex-basis: 5%;
+}
+
+/* END FOOTER*/
+
+/* OTHERS*/
+
+ul{
+    list-style-type: none;
+}
