@@ -6,9 +6,6 @@ body{
     
 }
 .container{
-    border: 5px;
-    border-style:dashed;
-    border-color: black;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -18,11 +15,12 @@ body{
 /* HEADER */
 
 .header{
-    background-color: aqua;
+    background-color: #1f2937;
     flex-basis: 35%;
 } 
 .header-top{
-    background-color: blueviolet;
+    font-size: 24px;
+    color: #f9faf8;
     margin-left: 20px;
     margin-right: 20px;
     padding: 0px;
@@ -30,17 +28,17 @@ body{
     justify-content: space-between;
 }
 .header-top ul{
+    font-size: 18px;
+    color: #e5e7eb;
     display: flex;
     gap: 20px;
 }
 
 .header-bottom{
-    background-color: bisque;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
     padding: 0px;
-
     display: flex;
     justify-content: space-evenly;
 }
@@ -56,6 +54,11 @@ body{
 
 .header-bottom button{
     align-self: flex-start;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
 }
 
 .header-bottom img{
@@ -64,12 +67,25 @@ body{
     align-self: center;
 }
 
+.header-text .title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.header-text .text{
+    margin-top: 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 /* END HEADER */
 
 /* TOP MAIN*/
 
 .top-main{
-    background-color: lightslategray;
     flex-basis: 30%;
     text-align: center;
     
@@ -78,8 +94,9 @@ body{
 .top-main-title{
     margin: 5px;
     padding: 0px;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
     display: flex;
     justify-content: center;
 }
@@ -91,13 +108,13 @@ body{
     justify-content: center;
     margin: 0px;
     padding: 0px;
-    gap: 5px;
+    gap: 50px;
 }
 
 .top-main-container img{
     border: 3px;
     border-style: solid;
-    border-color: bisque;
+    border-color: #3882f6;
     width: 80px;
     height: 80px;
 }
@@ -106,8 +123,31 @@ body{
 
 /* MID MAIN*/
 .mid-main{
-    background-color: lightblue;
-    flex-basis: 25%;
+    background-color: #e5e7eb;
+    flex-basis: 15%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 80%;
+}
+.mid-main h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    padding: 0px;
+    align-self: flex-end;
 }
 
 /* END MID MAIN*/
@@ -115,17 +155,63 @@ body{
 
 /* BOTTOM MAIN*/
 .bottom-main{
-    background-color: lightgreen;
+    
     flex-basis: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.call-to-action{
+    display: flex;
+    background-color: #3882f6;
+}
+
+.bottom-container{
+    width: 75%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.text-1{
+    margin: 0px;
+    padding: 19px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text-2{
+    margin-bottom: 10px;
+    padding: 0px;
+    width: 60%;
+    font-size: 15px;
+    align-self: flex-end;
+}
+
+.button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    align-self: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
 
 /* END BOTTOM MAIN*/
 
 
 /* FOOTER*/
 .footer{
-    background-color: lightpink;
+    background-color: #1f2937;
     flex-basis: 5%;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* END FOOTER*/
